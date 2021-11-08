@@ -1,43 +1,56 @@
 # SBG, hex_code: 19, dec_code: 25
 # NAT for Location resources
 nat:
+  subnet: 10.253.25.128/25
+  map:
   - num: 2
     toaddr: '10.254.1.20'
     host: "engine-ovirt"
+  - num: 3
+    toaddr: '10.254.1.21'
+    host: "ovih01"
+  - num: 4
+    toaddr: '10.254.1.22'
+    host: "ovih02"
   - num: 5
+    toaddr: '10.254.1.23'
+    host: "ovih03"
+  - num: 10
     toaddr: '10.254.20.23'
     host: "zabbix"
-  - num: 6
+  - num: 11
     toaddr: '10.254.20.15'
     host: "elk"
 vpn:
 - name: icdc
   port: 2200
-  ip: 10.254.25.1/24
+  ip: 10.253.25.1/24
   devices:
-  - num: 129
+  - num: 2
     name: dsatsura@ibagroup.eu notebook
     public_key: CgmnYEVMz4SLOWegz6U9BwAytJQHVQLaAlrrWIM4exE=
-  - num: 131
+  - num: 3
     name: dmemekh workstation
     public_key: q0I8FAzcC+xXaqC6AF56B6FCg5NwiMwh30Fql+XJDT8=
-  - num: 132
+  - num: 4
     name: dsatsura@ibagroup.eu workstation
     public_key: TDtAA+dyR76RsRuMghFqI2cFsVniL+mnck1VfOhKXxM=
-  - num: 133
+  - num: 5
     name: dmemekh notebook
     public_key: mbtCszp4v/d+Uz0RExGGR69UnYQY4ascyPmI9zrsrgg=
-  - num: 135
+  - num: 6
     name: ahrechushkin notebook
     public_key: xByJBjRNmGVfgBlrBswlN89+NClmQ2b8kookwOQUyD0=
 - name: team
   port: 2201
-  ip: 10.254.25.1/24
+  ip: 10.254.25.1/25
   devices:
-  - num: 129
+  - num: 2
     name: asavenia
     public_key: htQAuD6arPxNTDQOvtOGRkEDT13ZmzBRX66dK6a7C0Q=
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
   public_key: 8ObCL7wZbeJJPZsexTo5Bz6wpzlQgReiEKz9AHddjgo=
-  ip: 10.254.64.102/24
+  ip: 10.254.64.2/24
+  subnets:
+  - 10.253.38.0/24
