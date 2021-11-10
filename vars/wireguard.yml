@@ -34,10 +34,8 @@ nat:
   - num: 24
     toaddr: '10.254.20.4'
     host: "infra-3"
-
-  - num: 24
-    toaddr: '10.254.20.4'
-    host: "infra-3"
+  - num: 25
+    toaddr: '10.254.20.5'
 vpn:
 - name: icdc
   port: 2200
