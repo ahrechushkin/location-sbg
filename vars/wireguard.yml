@@ -1,4 +1,5 @@
 # SBG, hex_code: 19, dec_code: 25
+public_key: NPMQfjHY1MHsRfnCN0geIJJsYSxE/uPcUloN2pAW3Cw=
 # NAT for Location resources
 nat:
   subnet: 10.253.25.128/25
@@ -57,6 +58,7 @@ vpn:
   - num: 2
     name: asavenia
     public_key: htQAuD6arPxNTDQOvtOGRkEDT13ZmzBRX66dK6a7C0Q=
+peer_vpn:
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
   public_key: 8ObCL7wZbeJJPZsexTo5Bz6wpzlQgReiEKz9AHddjgo=
