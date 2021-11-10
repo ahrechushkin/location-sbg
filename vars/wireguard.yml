@@ -7,6 +7,15 @@ nat:
     toaddr: '10.254.1.20'
     host: "engine-ovirt"
   - num: 3
+    toaddr: '10.254.1.11'
+    host: "ceph01"
+  - num: 4
+    toaddr: '10.254.1.12'
+    host: "ceph02"
+  - num: 5
+    toaddr: '10.254.1.13'
+    host: "ceph03"
+  - num: 3
     toaddr: '10.254.1.21'
     host: "ovih01"
   - num: 4
@@ -51,6 +60,6 @@ vpn:
 - name: zby
   endpoint: sys.vpn.zby.icdc.io:2200
   public_key: 8ObCL7wZbeJJPZsexTo5Bz6wpzlQgReiEKz9AHddjgo=
-  ip: 10.254.64.2/24
+  ip: 10.254.64.71/24
   subnets:
   - 10.253.38.0/24
