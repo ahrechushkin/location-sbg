@@ -44,6 +44,9 @@ nat:
   - num: 27
     toaddr: 10.254.28.3
     host: okd-setup-os
+  - num: 50
+    toaddr: 198.18.0.6
+    # host: test-no-host-name
 vpn:
 - name: icdc
   port: 2200
