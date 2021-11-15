@@ -80,6 +80,15 @@ nat:
   - num: 27
     toaddr: 10.254.28.3
     host: okd-setup-os
+  - num: 41
+    toaddr: 10.254.4.21
+    host: ovih01-display
+  - num: 42
+    toaddr: 10.254.4.22
+    host: ovih02-display
+  - num: 43
+    toaddr: 10.254.4.23
+    host: ovih03-display
   - num: 50
     toaddr: 198.18.0.6
     # host: test-no-host-name
