@@ -53,13 +53,13 @@ nat:
   - num: 5
     toaddr: 10.254.1.13
     host: ceph03
-  - num: 3
+  - num: 6
     toaddr: 10.254.1.21
     host: ovih01
-  - num: 4
+  - num: 7
     toaddr: 10.254.1.22
     host: ovih02
-  - num: 5
+  - num: 8
     toaddr: 10.254.1.23
     host: ovih03
   - num: 22
