@@ -23,6 +23,9 @@ vpn:
   - num: 6
     name: ahrechushkin notebook
     public_key: xByJBjRNmGVfgBlrBswlN89+NClmQ2b8kookwOQUyD0=
+  - num: 7
+    name: asharapov notebook
+    public_key: xyPUfiH1iUk2FqeWmb5P/OOK6JktiLjafqrCgjCdgzs=
 - name: team
   port: 2201
   ip: 10.254.25.1/25
