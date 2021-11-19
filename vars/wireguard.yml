@@ -79,10 +79,10 @@ nat:
     host: cloudgw
   - num: 26
     toaddr: 198.18.0.7
-    host: okd-setup-service
+    host: okd-setup
   - num: 27
-    toaddr: 10.254.28.3
-    host: okd-setup-os
+    toaddr: 10.254.28.10
+    host: openshift-sys
   - num: 41
     toaddr: 10.254.4.21
     host: ovih01-display
