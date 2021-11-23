@@ -92,6 +92,9 @@ nat:
   - num: 31
     toaddr: 10.254.20.8
     host: logs
+  - num: 32
+    toaddr: 10.254.20.10
+    host: code
   - num: 41
     toaddr: 10.254.4.21
     host: ovih01-display
