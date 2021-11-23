@@ -86,6 +86,12 @@ nat:
   - num: 27
     toaddr: 10.254.28.10
     host: openshift-sys
+  - num: 30
+    toaddr: 10.254.20.6
+    host: zabbix
+  - num: 31
+    toaddr: 10.254.20.8
+    host: logs
   - num: 41
     toaddr: 10.254.4.21
     host: ovih01-display
