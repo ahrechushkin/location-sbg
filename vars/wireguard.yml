@@ -32,6 +32,9 @@ vpn:
   - num: 9
     name: tmatlash notebook
     public_key: QHcjR1Nqkw0BMohYcCvsCr/nKxLZXkMQuOGSFXtKoEI=
+  - num: 10
+    name: iarystau notebook
+    public_key: 9wdUikRTqKPaAO6EjDly6He0rcBVW6ZfehnnEJRQeAE=
 - name: team
   port: 2201
   ip: 10.254.25.1/25
