@@ -3,6 +3,7 @@
 location: sbg
 public_key: NPMQfjHY1MHsRfnCN0geIJJsYSxE/uPcUloN2pAW3Cw=
 # VPN server config
+account: sys
 vpn:
 - name: icdc
   port: 2200
