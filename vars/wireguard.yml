@@ -36,6 +36,9 @@ vpn:
   - num: 10
     name: iarystau notebook
     public_key: 9wdUikRTqKPaAO6EjDly6He0rcBVW6ZfehnnEJRQeAE=
+  - num: 11
+    name: ilezhapekau
+    public_key: 1FUKKZGd9OGQaRMXY5XycDWFXWwVsq1PJvrFfBBLOjw=
 - name: team
   port: 2201
   ip: 10.254.25.1/25
