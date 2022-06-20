@@ -24,9 +24,6 @@ vpn:
   - num: 6
     name: ahrechushkin notebook
     public_key: xByJBjRNmGVfgBlrBswlN89+NClmQ2b8kookwOQUyD0=
-  - num: 7
-    name: asharapov notebook
-    public_key: xyPUfiH1iUk2FqeWmb5P/OOK6JktiLjafqrCgjCdgzs=
   - num: 8
     name: skuzko notebook
     public_key: YNcpPcKq2UOK9D6L8PJLaUBLpqRrm3Y28M57pC77WhU=
