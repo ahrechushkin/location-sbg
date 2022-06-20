@@ -31,11 +31,8 @@ vpn:
     name: skuzko notebook
     public_key: YNcpPcKq2UOK9D6L8PJLaUBLpqRrm3Y28M57pC77WhU=
   - num: 9
-    name: tmatlash notebook
-    public_key: QHcjR1Nqkw0BMohYcCvsCr/nKxLZXkMQuOGSFXtKoEI=
-  - num: 10
-    name: iarystau notebook
-    public_key: 05MS3nc46SbIKBzB8fW8JagqziZkjWV4LoBHY51uF0Q=
+    name: mmarchanka@ibagroup.eu notebook
+    public_key: 2QROAWTG1+FfAM653mpUs5ydGmmwA6tFjRjSju1gF1I=
   - num: 11
     name: ilezhapekau
     public_key: 1FUKKZGd9OGQaRMXY5XycDWFXWwVsq1PJvrFfBBLOjw=
