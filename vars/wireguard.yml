@@ -36,6 +36,9 @@ vpn:
   - num: 12
     name: ahrechushkin workstation
     public_key: 9b3Ou9lXROVXBkuYIxlEfCsu+5XpuPEi1wXW74+4yxw=
+  - num: 13
+    name: dramanouski laptop
+    public_key: MxRZljSM+rXsbdtEd+IwiGOhPNuC41B9HSeIyUtGPjQ=
 - name: team
   port: 2201
   ip: 10.254.25.1/25
